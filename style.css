@@ -1,0 +1,71 @@
+h1{
+    color:whitesmoke;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+h2{
+    color: black;
+}
+.header{
+    background-color:turquoise;
+    display: flex;
+    justify-content: space-between;
+}
+.games{
+    /*background-color: cadetblue;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subgame{
+    margin-right: 200px;
+    margin-top: 100px;
+    position: relative;
+}
+.subgame h2{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    opacity: 0;
+}
+.socialmedia{
+    /*background-color: darkcyan;*/
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color:teal;
+}
+.nav{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav a{
+    margin-left: 50px;
+    font-style: oblique;
+    font-family: serif;
+    font-size: 20px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: violet;
+}
+.subgame:hover h2{
+    opacity: 1;
+}
+.subgame:hover img{
+    opacity: 20%;
+}
